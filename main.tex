@@ -1,0 +1,33 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{array}
+\newcolumntype{C}{>$c<$}
+
+%% Sets page size and margins.
+\usepackage{amsfonts,amssymb}
+\usepackage[margin=1in]{geometry}
+
+
+\title{Math 312\\Theorem 83}
+\author{Chachi Lor}
+\date{}
+
+\begin{document}
+\maketitle
+\underline{Proof.}
+
+Let $X = \{ n | n \in \mathbb{N} \} \text{ and let } Y = \{ n+ 1/2n | n \in \mathbb{N} \}$. $X$ and $Y$ are closed and disjoint. 
+By definition of distance between two sets,
+
+\begin{center}
+$d(X,Y) = inf\{ d(x,y) | x \in X \text{ and } y \in Y \}$
+$ = inf \{ 1/2n \} = 0$. $\Box$
+\end{center}
+ 
+\end{document}
